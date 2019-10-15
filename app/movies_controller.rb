@@ -38,7 +38,7 @@ end
     m.release_date = args[:release_date]
     m.save
   end
-end
+
 
 def can_get_the_last_item_in_the_database
   __
