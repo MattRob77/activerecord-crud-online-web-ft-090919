@@ -33,7 +33,7 @@ def can_be_created_in_a_block(args = __)
   end
 end
 
-def can_get_the_first_item_in_the_database
+  def can_get_the_first_item_in_the_database
    m.title = args[:title]
     m.release_date = args[:release_date]
     m.save
